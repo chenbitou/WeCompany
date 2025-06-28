@@ -1,7 +1,0 @@
-@import "../../../../../style/public/comm_box_list.wxss";
-@import "../../../style/skin.wxss";
-
-.comm-list-box .item-leftbig1 .leftbig-left { 
-	border-radius: 5rpx!important;
-}
- 

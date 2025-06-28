@@ -1,0 +1,53 @@
+@import "../../../../../style/public/comm_box_list.wxss";
+@import "../../../style/skin.wxss";
+@import "../../tpls/query/query.wxss";
+
+.comm-list-box .item-leftbig1 .leftbig-left {
+	border-top-left-radius: 30rpx !important;
+	border-bottom-right-radius: 30rpx !important;
+	border-bottom: 6rpx solid var(--projectCompareColor)
+}
+
+
+
+.list {
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	margin-top: 0rpx;
+}
+
+.list .item {
+	width: 50%;
+	padding: 20rpx;
+}
+
+.list .item .inner {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-color: #fff;
+	padding: 0rpx 0 10rpx;
+	border-radius: 15rpx;
+	overflow: hidden;
+}
+
+.list .item .inner>image {
+	width: inherit;
+	height: 350rpx;
+	border-radius: 15rpx;
+	border-bottom-left-radius: 0rpx;
+	border-bottom-right-radius: 0rpx;
+}
+
+.list .item .inner .title {
+	width: 100%;
+	font-size: 26rpx;
+	color: #333;
+	padding: 10rpx 0 20rpx;
+	text-align: left;
+	padding:10rpx 10rpx;
+	height: 80rpx; 
+}
